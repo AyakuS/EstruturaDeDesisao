@@ -18,7 +18,6 @@ media = (n1+n2)/2
 if media > 9 and media <=10:
     print(f'Media = {media} ----- Conceito = A\n'
           f'APROVADO !')
-
 elif media >= 7.5 and media < 9:
     print(f'Media = {media} ----- Conceito = B\n'
           f'APROVADO !')
