@@ -16,19 +16,20 @@ n2 = float(input('Digite a N2 do aluno: '))
 media = (n1+n2)/2
 
 if media > 9 and media <=10:
-    print(f'Media = {media} ----- Conceito = A')
+    print(f'Media = {media} ----- Conceito = A\n'
+          f'APROVADO !')
 
 elif media >= 7.5 and media < 9:
-    print(f'Media = {media} ----- Conceito = B')
-
+    print(f'Media = {media} ----- Conceito = B\n'
+          f'APROVADO !')
 elif media >= 6 and media < 7.5:
-    print(f'Media = {media} ----- Conceito = C')
-
+    print(f'Media = {media} ----- Conceito = C\n'
+          f'APROVADO !')
 elif media >= 4 and media < 6:
-    print(f'Media = {media} ----- Conceito = D')
-
+    print(f'Media = {media} ----- Conceito = D\n'
+          f'REPROVADO !')
 elif media >= 0 and media < 4:
-    print(f'Media = {media} ----- Conceito = E')
-
+    print(f'Media = {media} ----- Conceito = E\n'
+          f'REPROVADO !')
 else:
-    print('Digite notas validas !')
+    print('Digite notas validas, entre 0 a 10 !')
