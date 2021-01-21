@@ -61,7 +61,7 @@ if numero <= 1000:
 
     elif numero > 100 and numero <= 199:
 
-        
+        print('Parei aqui aaaaaaaaah !')
 
 else:
     print('Numero digitado não é valido')
