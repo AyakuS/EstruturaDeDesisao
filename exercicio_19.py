@@ -7,7 +7,7 @@ mesmo.Observando os termos no plural a colocação do "e", da vírgula entre out
 
 numero = int(input('Digite um numero inteiro menor que 1000 : '))
 
-if numero <= 1000:
+if numero < 1000:
 
     if numero == 100 or numero == 200  or numero == 300  or numero == 400  or numero == 500 \
             or numero == 600  or numero == 700  or numero == 800  or numero == 900:
