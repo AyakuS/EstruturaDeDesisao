@@ -63,7 +63,23 @@ if num < 1000:
                     print(f'{casas_num[2]} Unidades')
 
     elif len(txt) == 2:
-        print()
+
+        if casas_num[0] == 1:
+            print(f'{casas_num[0]} Dezena')
+            if casas_num[1] == 1:
+                print(f'{casas_num[1]} Unidade')
+            elif casas_num[1] >= 2:
+                print(f'{casas_num[1]} Unidades')
+        else:
+            print(f'{casas_num[0]} Dezenas')
+
+    elif len(txt) == 1:
+
+        if casas_num[0] == 1:
+            print(f'{casas_num[0]} Unidade')
+        else:
+            print(f'{casas_num[0]} Unidades')
 
 else:
     print('Digite um numero valido !')
+    
