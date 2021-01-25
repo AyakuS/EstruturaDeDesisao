@@ -13,7 +13,7 @@ saque = int(input('Qual o valor do saque: '))
 if saque >= 10 and saque <= 600:
 
     notas_de100 = saque // 100
-    notas_de50 = (saque - notas_de100*100) // 50
+    notas_de50 = (saque % 100) // 50
     notas_de10 = ((saque % 100) % 50) // 10
     notas_de5 = (((saque % 100) % 50) %10 ) // 5
     notas_de1 = ((((saque % 100) % 50) %10 ) % 5) // 1
